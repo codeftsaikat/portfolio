@@ -1,5 +1,5 @@
 import SectionHeading from "@/components/Helper/SectionHeading";
-import { servicesData } from "@/data/data";
+import { servicesData } from "@/Data/data";
 import React from "react";
 import ServiceCard from "./ServiceCard/ServiceCard";
 

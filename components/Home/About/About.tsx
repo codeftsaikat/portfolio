@@ -1,5 +1,5 @@
 import SectionHeading from "@/components/Helper/SectionHeading";
-import { aboutInfo } from "@/data/data";
+import { aboutInfo } from "@/Data/data";
 import Image from "next/image";
 import React from "react";
 import { FaCableCar, FaCheck } from "react-icons/fa6";
