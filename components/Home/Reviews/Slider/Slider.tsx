@@ -6,7 +6,7 @@ import "react-multi-carousel/lib/styles.css";
 import ReviewCard from "../ReviewCard/ReviewCard";
 
 const responsive = {
-    desktop: {
+    desktop : {
       breakpoint: { max: 3000, min: 1324 },
       items: 3,
       slidesToSlide: 1// optional, default to 1.
