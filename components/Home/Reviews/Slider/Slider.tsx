@@ -23,7 +23,7 @@ const responsive = {
     }
   };
 const Slider = () => {
-  return <Carousel arrows={true} autoPlay={true} autoPlaySpeed={5000} infinite responsive={responsive}>
+  return <Carousel arrows={true} autoPlay={true} autoPlaySpeed={4000} infinite responsive={responsive}>
     {
         clientReviews.map(review=>{
             return <div key={review.image}>
