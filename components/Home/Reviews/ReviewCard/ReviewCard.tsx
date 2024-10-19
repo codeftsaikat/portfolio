@@ -31,7 +31,7 @@ const ReviewCard = ({ review }: Props) => {
         <FaStar className="text-yellow-500" />
       </div>
       <div className="bg-gray-200">
-        <div className="flex items-center p-6 space-x-6">
+        <div className="flex items-center p-6 space-x-6 mt-4">
             <div>
                 <Image src={image} alt={name} height={40} width={40} className="rounded-full"/>
             </div>
