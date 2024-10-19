@@ -10,8 +10,12 @@ const Blog = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-[80%] mx-auto items-center mt-20">
             {
-                blogs.map(blog=>{
-                   return <div key={blog.id}>
+                blogs.map((blog,i)=>{
+                   return <div 
+                   data-aos="zoom-in"
+                   data-aos-anchor-placement="top-center"
+                   data-aos-delay={`${i * 150}`}
+                   key={blog.id}>
                          {/* blog card */}
                          <BlogCard blog={blog}/>
                     </div>
