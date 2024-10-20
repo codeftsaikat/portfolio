@@ -12,7 +12,7 @@ const About = () => {
 
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
         {/* text content */}
-        <div>
+        <div data-aos="fade-left" data-aos-anchor-placement="top-center">
           <h1 className="text-bg text-gray-200 text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold">
             {aboutInfo.title}
           </h1>
@@ -47,7 +47,12 @@ const About = () => {
           </div>
         </div>
         {/* stats content */}
-        <div className="items-center lg:mx-auto grid grid-cols-2 gap-16">
+        <div
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+          className="items-center lg:mx-auto grid grid-cols-2 gap-16"
+        >
           {/* 1st stat */}
           <div>
             <Image

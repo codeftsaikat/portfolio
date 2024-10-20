@@ -7,11 +7,18 @@ const Contact = () => {
     <div className='bg-[#050705] pt-16 pb-16'>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-12 w-[80%] mx-auto items-center mt-10">
               {/* contact form */}
-              <div>
+              <div
+                   data-aos="fade-left"
+                   data-aos-anchor-placement="top-center"
+              >
                 <ContactForm/>
               </div>
               {/* contact-info */}
-              <div className='mx-auto'>
+              <div 
+                   data-aos="fade-right"
+                   data-aos-anchor-placement="top-center"
+                   data-aos-delay="100"
+              className='mx-auto'>
                 <ContactInfo/>
               </div>
         </div>

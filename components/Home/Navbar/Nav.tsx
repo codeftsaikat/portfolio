@@ -34,6 +34,7 @@ const Nav = ({openNav}:Props) => {
           src="/images/logo.png"
           width={170}
           height={170}
+          priority
           alt="logo"
           className="ml-[-1.5rem] sm:ml-0"
         />
